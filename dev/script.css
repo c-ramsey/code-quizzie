@@ -13,11 +13,12 @@
 
 body {
     font-family: sans-serif;
-    background-color: bisque;
+    background-color:antiquewhite;
 }
 
 p {
     color: darkorange;
+    background-color: lavenderblush;
 } 
 
 button {}
@@ -30,35 +31,51 @@ button {}
 .outer-container {
     padding: 10px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 
 /*-----------*/
 /*top bar*/
 /*-----------*/
 
-.top-bar {}
+.top-bar {
+    padding: 5px;
+}
 
 .top-bar p {
     float: right;
     margin: 20px;
     padding: 5px;
+    border-color: dodgerblue;
 
 }
 
 .top-bar button {
-    background-color: antiquewhite;
+    background-color: lavenderblush;
     border: 1pxs;
     border-color: dodgerblue;
     border-radius: 6%;
     margin: 20px;
     padding: 5px;
+    box-shadow: 5px 5px 5px black;
 }
+    
 
 /*-----------*/
 /*inner cont*/
 /*-----------*/
 
 .inner {
+    background-color: darkgoldenrod;
+    height:100vh;
+    width:50%;
+    margin: 0 auto;
+    padding: 5px;
+
+    
+    
 
 
 }
@@ -68,6 +85,7 @@ button {}
 /*-----------*/
 
 .intro {
+
     
 
 }
