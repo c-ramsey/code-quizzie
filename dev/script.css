@@ -1,13 +1,13 @@
-/*-----------*/
-/*global decs*/
-/*-----------*/
+
+/*global decs */
+
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black
+    
 }
 
 
@@ -21,11 +21,11 @@ p {
     background-color: lavenderblush;
 } 
 
-button {}
 
-/*-----------*/
-/*outer cont*/
-/*-----------*/
+
+
+/* outer cont */
+
 
 
 .outer-container {
@@ -36,9 +36,9 @@ button {}
     justify-content: start;
 }
 
-/*-----------*/
-/*top bar*/
-/*-----------*/
+
+/* top bar */
+
 
 .top-bar {
     padding: 5px;
@@ -49,6 +49,7 @@ button {}
     margin: 20px;
     padding: 5px;
     border-color: dodgerblue;
+    box-shadow: 5px 5px 5px black;
 
 }
 
@@ -63,9 +64,9 @@ button {}
 }
     
 
-/*-----------*/
-/*inner cont*/
-/*-----------*/
+
+/* inner cont */
+
 
 .inner {
     background-color: darkgoldenrod;
@@ -79,23 +80,39 @@ button {}
 
 }
 
-/*-----------*/
-/*header/intro*/
-/*-----------*/
 
-.intro {
-    margin-bottom: 100px;
+/* header/intro */
+
+
+.intro, main {
+    margin-bottom: 10vh;
+    margin-left: 10%;
+    margin-right: 10%;
 
     
 
 }
 
-/*-----------*/
-/*main quiz cont*/
-/*-----------*/
+.intro button{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+/* main quiz cont */
+
 
 .main-cont {
+    display: none;
 
 
 }
+
+/* question screen */
+
+.finish-screen {
+    display: block;
+}
+
 

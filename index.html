@@ -1,56 +1,108 @@
-
 <!DOCTYPE html>
 
- <html>
-    <head>
-        <title>Code Quizzie</title>
-        <meta name="viewport" content="width-device-width, initial-scaled">
-        <link rel="stylesheet" href="./dev/script.css">
-        
-    </head>
-    <body>
-        <!--main ouiter container-->
-        <div class="outer-container">
+<html>
 
-             <!--top bar-->
-            <div class="top-bar">
-                <button>See Highscores</button>
-                <p>Timer: 00:00</p>
+<head>
+    <title>Code Quizzie</title>
+    <meta name="viewport" content="width-device-width, initial-scaled">
+    <link rel="stylesheet" href="./dev/script.css">
+
+</head>
+
+<body>
+    <!--main ouiter container-->
+    <div class="outer-container">
+
+        <!--top bar-->
+        <div class="top-bar">
+            <button>See Highscores</button>
+            <p>Timer: 00:00</p>
 
 
-            </div>
+        </div>
 
-            <!--inner container-->
-            <div class="inner">
+        <!--inner container-->
+        <div class="inner">
 
-                 <!--header/quiz intro-->
-                <header class="intro">
+            <!--header/quiz intro-->
+            <header class="intro">
 
                 <h1>Got a lil quiz for ya!</h1>
                 <p>Hit start button to get it going!</p>
+                <button>Start Quiz!</button>
 
-                </header>
+            </header>
 
-               
+            <!--main content box-->
+
+            <main class="main-cont">
+                <section class="question-screen">
+                    <h2>Question</h2>
+                    <ul>
+                        <li>answer</li>
+                        <li>answer</li>
+                        <li>answer</li>
+                        <li>answer</li>
+                    </ul>
+                    <footer id="feedback">
+                        <p>
+                            sorry dawg! that aint it.
+                        </p>
+                    </footer>
 
 
-                 <!--main content box-->
-                      
-                <main class="main-cont">
+                </section>
+
+                <!--quiz finished-->
+
+                <section class="finish=screen">
+
+                    <h2>
+                        alright that's all i got!
+                    </h2>
+                    <p>Final Score: 0</p>
+                    <div id="score entry">
+                        <label for="">Enter Name</label>
+                        <input type="text" placeholder="Name Here">
+                        <button class="submit">submit</button>
+                    </div>
+
+                </section>
+
+                <!--highscores screen-->
+
+                <section id="scores screen">
+                    <h2 id="scores title"></h2>
+                    <ol>
+
+
+                    </ol>
+                    <button id="go back"></button>
+                    <button id="clear scores"></button>
+
+                </section>
+
+            </main>
 
 
 
-                </main>
 
 
-            </div>
+
 
 
 
         </div>
-        
-        
-    </body>
- </html>
 
 
+
+    </div>
+
+   <script type="" src="./dev/script.js">
+
+   </script>
+
+
+</body>
+
+</html>
