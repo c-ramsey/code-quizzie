@@ -12,11 +12,11 @@ Create a timed quiz to run in browser where the user is asked a series of multip
 
 ## deployed
 
-[Deployed Webpage] (https://c-ramsey.github.io/code-quizzie/)
+[ployed](https://c-ramsey.github.io/code-quizzie/)
 
 ## ss
 
-![ss] (dev/assets/Code-Quizzie.png)
+![ss](dev/Code-Quizzie.png)
 
 ## acceptance criteria
 
