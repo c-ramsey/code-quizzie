@@ -1,4 +1,4 @@
-// This is the question funstions that contain questions and the answers. They are in multidimensional array with inner array elements
+
 var questions = [
     { 
         question: "Inside which HTML element do we put the JavaScript?", 

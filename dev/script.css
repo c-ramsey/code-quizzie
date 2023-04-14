@@ -1,5 +1,7 @@
 
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +10,9 @@
   
   :root {
     background-color: cornsilk;
-    --primary-color: brown;
-    --secondary-color: salmon;
-    --tertiary-color: #aaaaaa;
+    --primary-color: coral;
+    --secondary-color: brown;
+    --tertiary-color: crimson;
     --white-color: #ffffff;
     --correct-color: royalblue;
   }
@@ -30,7 +32,8 @@
     text-align: center;
   }
   
-  /* Header */
+  /* header */
+
   header {
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +55,8 @@
     color: var(--tertiary-color);
   }
   
-  /* Start Quiz */
+  /* start */
+
   .start-quiz {
     text-align: center;
   }
@@ -62,14 +66,15 @@
   }
   
   h2 {
-    color: var(--tertiary-color);
+    color: black;
     border-top: 1px solid var(--tertiary-color);
     margin: 20px 0;
     font-style: italic;
     text-align: center;
   }
   
-  /* Buttons */
+  /* buttons */
+
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -107,7 +112,8 @@
     background-color: var(--tertiary-color);
   }
   
-  /* Wrapper for buttons */
+  /* button wrapper */
+
   .controls {
     display: flex;
     justify-content: center;
@@ -115,7 +121,8 @@
     margin: 10px 0;
   }
   
-  /* Enter your initial */
+  /* initials */
+
   input[type="text"] {
     padding: 10px;
     margin: 8px 0;
@@ -124,7 +131,8 @@
     box-sizing: border-box;
   }
   
-  /* Highscores Page */
+  /* highscores */
+
   .highscore {
     display: flex;
     flex-wrap: wrap;
@@ -136,12 +144,11 @@
     flex: 1 35%;
     padding: 10px 0;
     border: 1px solid var(--correct-color);
-    margin-top: -0.5px;
-    margin-left: -0.5px;
   }
   
-  /*** MEDIA QUERY FOR MOBILE PHONES AND SMALLER ***/
-  /* this will be applied on any screen smaller than 575px */
+  
+  /* media q's */
+
   @media screen and (max-width: 575px) {
     .btn-grid {
       grid-template-columns: repeat(1, auto);
