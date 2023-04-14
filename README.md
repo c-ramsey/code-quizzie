@@ -7,16 +7,16 @@ Create a timed quiz to run in browser where the user is asked a series of multip
 
 ## content
 
-1. [Deployed Webpage](#deployed-webpage)
-2. [Action Taken](#action-taken)
+1. [deployed webpage](#deployed-webpage)
+2. [acceptance criteria](#acceptance-criteria)
 
 ## deployed
 
-[Deployed Webpage] 
+[Deployed Webpage] (https://c-ramsey.github.io/code-quizzie/)
 
 ## ss
 
-![Screenshot] (dev/assets/Code-Quizzie.png)
+![ss] (dev/assets/Code-Quizzie.png)
 
 ## acceptance criteria
 
